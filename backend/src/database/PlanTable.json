@@ -1,0 +1,17 @@
+[
+  {
+    "id": "4fd9237b-b689-4b81-9716-538c7aabf412",
+    "name": "Fale Mais 30",
+    "availableMinutes": 30
+  },
+  {
+    "id": "cad063db-a943-45a1-aaa8-d31d7a39c9d3",
+    "name": "Fale Mais 60",
+    "availableMinutes": 60
+  },
+  {
+    "id": "0b1a1035-b713-408c-8b08-4fc27877c7c1",
+    "name": "Fale Mais 120",
+    "availableMinutes": 120
+  }
+]

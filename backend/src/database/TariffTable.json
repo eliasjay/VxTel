@@ -1,0 +1,38 @@
+[
+  {
+    "id": "86d0ade6-4c7a-4175-ba7f-b9ef8eac5ece",
+    "origin": "011",
+    "destination": "016",
+    "pricePerMinute": 1.90
+  },
+  {
+    "id": "e7e1f6c1-49a7-47d9-8f5d-fc6555f56784",
+    "origin": "011",
+    "destination": "017",
+    "pricePerMinute": 1.70
+  },
+  {
+    "id": "80cb54f1-f09d-45db-9649-bf8c994da5c6",
+    "origin": "011",
+    "destination": "018",
+    "pricePerMinute": 0.90
+  },
+  {
+    "id": "7d3ceb1d-3b37-427c-962d-9907e85c95e2",
+    "origin": "016",
+    "destination": "011",
+    "pricePerMinute": 2.90
+  },
+  {
+    "id": "1a0aa565-d65f-4863-a86d-689c344cc075",
+    "origin": "017",
+    "destination": "011",
+    "pricePerMinute": 2.70
+  },
+  {
+    "id": "e7032b9a-0f2b-44f8-958a-f09834e3ba75",
+    "origin": "018",
+    "destination": "011",
+    "pricePerMinute": 1.90
+  }
+]
