@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "experimentalDecorators": true,
     "target": "es2017",                          
     "module": "commonjs",                     
     "lib": ["es6"],                             
@@ -17,7 +18,8 @@
     "baseUrl": "./src",
     "paths": {
       "@shared/*": ["shared/*"],
-      "@modules/*": ["modules/*"]
+      "@modules/*": ["modules/*"],
+      "@database/*": ["database/*"]
     }
   },
   "include": [
