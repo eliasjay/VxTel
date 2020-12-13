@@ -5,18 +5,25 @@ import CalculateTariffService from "@modules/tariffs/services/CalculateTariffSer
 
 class TariffController {
   public async index(request: Request, response: Response): Promise<Response> {
-    const { plan_id, origin, destination, durationInMinutes } = request.body
+    try {
+      const { plan_id, origin, destination, durationInMinutes } = request.body
 
-    const calculateTariffService = container.resolve(CalculateTariffService)
-
-    const tariff = await calculateTariffService.execute({
-      plan_id,
-      origin,
-      destination,
-      durationInMinutes
-    })
-
-    return response.json(tariff)
+      const calculateTariffService = container.resolve(CalculateTariffService)
+  
+      const tariff = await calculateTariffService.execute({
+        plan_id,
+        origin,
+        destination,
+        durationInMinutes
+      })
+  
+      return response.json(tariff)
+    } catch (error) {
+      return response.status(400).json({ 
+        status: 'error',
+        message: error.message
+      });
+    }
   }
 }
 
