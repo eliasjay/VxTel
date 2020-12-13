@@ -36,7 +36,7 @@ class CalculateTariffService {
         })
 
         if (!tariff) {
-          throw new AppError('Verify origin and destination form call.')
+          throw new AppError('Verify origin and destination from call.')
         }
 
         const plan = await this.planRepository.findById(plan_id)

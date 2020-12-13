@@ -37,9 +37,9 @@ describe('CalculateTariffService', () => {
     await expect(
       calculateTariffService.execute({
         plan_id: "0b1a1035-b713-408c-8b08-4fc27877c7c1", // Plan Fale Mais 120
-        origin: '012',
+        origin: '011',
         destination: '011',
-        durationInMinutes: 200
+        durationInMinutes: 5
       })
     ).rejects.toBeInstanceOf(AppError)
   })
